@@ -66,18 +66,17 @@ font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 font-style: normal;
-border-radius: 4px;
-padding: 16px 32px;
 width: 169px;
 height: 56px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #4d5ae5;
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 10px;
-cursor: pointer;
+background-color: #4d5ae5;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+}
+.hero-button:hover,
+.hero-button:focus
+{
+  background-color: #404BBF
 }
 .feature-title
 {
@@ -106,6 +105,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 .team-item
 {
@@ -120,7 +120,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-}
+} 
 .team-profession,
 .portfolio-text
 {
@@ -130,6 +130,11 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
 }
+.portfolio-title
+{
+text-transform: capitalize;
+}
+
 .portfolio-item
 {
 width: 1128px;
@@ -151,5 +156,7 @@ color: #f4f4fd;
 .footer-text{
 font-size: 16px;
 color: #f4f4fd;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
  
