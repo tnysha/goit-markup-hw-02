@@ -35,8 +35,8 @@ color:#2e2f42;
 }
 .nav-link:hover,
 .nav-link:focus,
-.address-link:hover,
-.address-link:focus
+.contacts-link:hover,
+.contacts-link:focus
 {
 color: #404bbf;
 }
