@@ -23,7 +23,7 @@ a
 }
 .page-logo .logo-part
 {
-  color:#2e2f42;
+color:#2e2f42;
 } 
 .nav-link
  {
@@ -40,13 +40,21 @@ a
 {
 color: #404bbf;
 }
-.address-link 
+.contacts
 {
-font-style: normal;  
+font-style:normal;  
+}
+.contacts-link 
+{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.section-hero
+{
+ background-color:#2e2f42; 
 }
 .hero 
 {
@@ -56,9 +64,6 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
-background-color: #2e2f42;
-width: 1440px;
-height: 600px;
 }
 .hero-button
 {
@@ -66,17 +71,16 @@ font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 font-style: normal;
-width: 169px;
-height: 56px;
 background-color: #4d5ae5;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
+cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus
 {
-  background-color: #404BBF
+background-color: #404BBF
 }
 .feature-title
 {
@@ -94,7 +98,7 @@ letter-spacing: 0.02em;
 }
 .team
 {
-  background-color: #f4f4fd;
+background-color: #f4f4fd;
 }
 .team-page,
 .portfolio-page
@@ -134,11 +138,9 @@ color: #434455;
 {
 text-transform: capitalize;
 }
-
 .portfolio-item
 {
-width: 1128px;
-height: 420px;
+
 }
 .portfolio-title,
 .portfolio-text
@@ -147,7 +149,7 @@ text-align: left;
 }
 .page-footer
 {
-  background-color: #2e2f42;
+background-color: #2e2f42;
 }
 .footer-logo .logo-part
 {
